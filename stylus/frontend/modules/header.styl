@@ -1,0 +1,58 @@
+$header_height = 120px
+
+header
+  background-color: $theme_primary
+  min-height: $header_height
+  position: relative
+
+  &>.row
+    border-bottom: 1px solid $white
+    background-color: $theme_primary
+
+  .logo-wrap
+    img
+      padding-top: 10px
+
+
+  .navigation-menu
+    min-height: $header_height
+    position: relative
+
+    div.navbar-collapse
+      position: absolute
+      bottom: 0px
+      right: 0
+
+      ul
+        li
+          &.open
+            a
+              color: $theme_primary
+              background-color: $theme_light_grey!important
+
+          ul.dropdown-menu
+            padding:0
+            list-style : none
+            background-color: $theme_light_grey
+            box-shadow : none
+            border: none
+            border-radius : 0!important
+
+            li
+              display : block
+
+              a
+                padding: 10px
+
+                &:hover
+                  color: $white
+                  background-color: $theme_primary!important
+
+          a
+            color: $white
+            text-decoration: none
+            padding-top: 10px !important
+            padding-bottom: 10px !important
+
+          a:hover, a:focus, a:active
+              color: $theme_primary

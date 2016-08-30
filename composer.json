@@ -1,0 +1,13 @@
+{
+    "name": "html24/wordpress-template",
+    "authors": [
+        {
+            "name": "Viktor Poulsen",
+            "email": "vipo@html24.net"
+        }
+    ],
+    "type": "wordpress-theme",
+    "require": {
+        "composer/installers": "@stable"
+    }
+}
